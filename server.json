@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "com.htmlpub/htmlpub",
+  "description": "Publish AI-generated HTML to a live, permanent page on your own custom domain. Connect Claude, ChatGPT, or Cursor and your AI creates, edits, and publishes pages, sites, and blogs directly to hosting.",
+  "version": "1.0.0",
+  "websiteUrl": "https://htmlpub.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.htmlpub.com/mcp"
+    }
+  ]
+}
